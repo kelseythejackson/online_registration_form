@@ -1,0 +1,27 @@
+body {
+  font-family: $font;
+  color: $textColor;
+  // background: $backgroundColor;
+  background: linear-gradient(135deg, rgba($ktjGreen, .9), $darkColor), url(../images/bg-image.jpg) center right no-repeat;
+  height: 100vh;
+  height: 100%;
+
+
+    .container {
+      width: 90%;
+      max-width: 760px;
+      margin: auto;
+    }
+    .margin {
+      display: inline-block;
+      margin: 24px 0 0 0;
+    }
+
+    footer {
+      .copyright {
+        text-align: center;
+        margin: 24px 0;
+      }
+    }
+
+}

@@ -1,0 +1,10 @@
+$font: 'Droid Sans', sans-serif;
+$backgroundColor: #fafafa;
+$textColor: #ffffff;
+$buttonColor: #46ae6b;
+$divider: rgba(0,0,0, .1);
+$ktjGreen: #46ae6b;
+$ktjcomplement: complement($ktjGreen);
+$darkComplement: darken($ktjcomplement, 35%);
+$lightColor: lighten($ktjGreen, 35%);
+$darkColor: darken($ktjGreen, 35%);
